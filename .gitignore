@@ -1,0 +1,67 @@
+# 🔹 Node modules
+node_modules/
+
+# 🔹 Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 Env files (ВАЖНО не пушить)
+.env
+.env.* 
+
+# 🔹 Build folders
+dist/
+build/
+.next/
+out/
+
+# 🔹 Vite
+vite.config.ts.timestamp-*
+
+# 🔹 Coverage
+coverage/
+
+# 🔹 Prisma
+prisma/migrations/
+# если хочешь хранить миграции — убери строку выше
+
+# 🔹 TypeScript
+*.tsbuildinfo
+
+# 🔹 IDE
+.vscode/
+.idea/
+
+# 🔹 Temporary files
+tmp/
+temp/
+
+# 🔹 Logs
+*.log
+
+# 🔹 Docker
+docker-compose.override.yml
+
+# 🔹 Mac / Linux
+*.swp
+
+# 🔹 React
+node_modules/
+build/
+
+# 🔹 NestJS
+dist/
+
+# 🔹 Testing
+jest.config.js
+coverage/
+
+# 🔹 Optional
+*.local
